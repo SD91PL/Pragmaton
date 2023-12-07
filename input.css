@@ -1,0 +1,16 @@
+@import url('./animations.css');
+
+@font-face {
+	font-family: 'urzeit';
+	src: url('../fonts/Urzeit.ttf');
+	font-weight: normal;
+	font-style: normal;
+	/* font-display: block; */
+}
+.font-urzeit {
+    font-family: 'urzeit';
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

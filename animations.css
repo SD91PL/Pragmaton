@@ -1,0 +1,72 @@
+.focus-in {
+	animation: focus-in 1.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+@keyframes focus-in {
+	0% {
+		filter: blur(12px);
+		opacity: 0;
+	}
+	100% {
+		filter: blur(0px);
+		opacity: 1;
+	}
+}
+
+.blur-out {
+	animation: blur-out 0.9s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+@keyframes blur-out {
+	0% {
+		filter: blur(0.01);
+	}
+	100% {
+		filter: blur(12px) opacity(0%);
+	}
+}
+
+.shake-horizontal {
+	animation: shake-horizontal 24s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+}
+.shake-horizontal-start {
+	animation: shake-horizontal 30s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+}
+@keyframes shake-horizontal {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+	80% {
+		transform: translateX(8px);
+	}
+	90% {
+		transform: translateX(-8px);
+	}
+}
+
+.text-pop-up-top {
+	animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes text-pop-up-top {
+	0% {
+	  transform: translateY(0);
+	  transform-origin: 50% 50%;
+	  text-shadow: none;
+	}
+	100% {
+	  transform: translateY(-50px);
+	  transform-origin: 50% 50%;
+	  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 40px 24px rgba(0, 0, 0, 0.3);
+	}
+  }
+  
