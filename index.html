@@ -9,24 +9,24 @@
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body class="bg-slate-800 text-white overflow-hidden">
-		<header class="relative z-50"> 
-		<!-- <header class="hidden"> -->
+		<header class="relative inset-0 z-50">
+			<!-- <header class="hidden"> -->
 			<div class="hidden"></div>
-			<div class="under-home absolute bg-black w-screen h-screen z-40"></div>
+			<div class="under-home absolute inset-0 bg-black w-screen h-screen z-40"></div>
 			<div
-				class="home absolute flex flex-col justify-center items-center w-screen h-screen bg-black focus-in space-y-12 z-50">
-				<div class="hover:scale-105 transition-transform">
+				class="home absolute inset-0 flex flex-col flex-wrap justify-center items-center w-screen h-screen bg-black focus-in z-50">
+				<div class="flex flex-col">
 					<p
-						class="home__logo px-8 font-urzeit uppercase text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl rounded">
+						class="home__logo portrait:mt-16 landscape:mt-6 lg:landscape:mt-12 px-8 font-urzeit uppercase text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl rounded hover:scale-105 transition-transform">
 						<span class="text-pop-up-top">pragmaton</span>
 					</p>
+					<button class="start-btn mt-8 font-urzeit uppercase text-2xl sm:text-3xl">
+						<div class="hover:scale-125 transition-transform">
+							<p class="p-8 tracking-wide">start</p>
+						</div>
+					</button>
 				</div>
-				<button class="start-btn font-urzeit uppercase text-2xl sm:text-3xl">
-					<div class="hover:scale-125 transition-transform">
-						<p class="p-8 tracking-wide">start</p>
-					</div>
-				</button>
-				<div class="home-nav flex flex-col justify-center items-center text-center text-5xl space-y-10 z-40">
+				<div class="home-nav flex flex-col justify-center items-center text-center my-12 text-5xl space-y-10 z-40">
 					<div class="flex space-x-10">
 						<a
 							href="https://www.facebook.com/pragmaton2022"
@@ -64,19 +64,20 @@
 		</header>
 		<main>
 			<section
-				class="s-one absolute flex flex-col justify-center items-center w-screen h-screen bg-red-800 focus-in z-20">
+				class="s-one absolute inset-0 flex flex-col justify-center items-center w-screen h-screen bg-red-800 focus-in z-20">
 				<h1 class="text-9xl">1</h1>
 			</section>
 			<section
-				class="s-two absolute flex flex-col justify-center items-center w-screen h-screen bg-green-800 focus-in z-30">
+				class="s-two absolute inset-0 flex flex-col justify-center items-center w-screen h-screen bg-green-800 focus-in z-30">
 				<h1 class="text-9xl">2</h1>
 			</section>
 			<section
-				class="s-three absolute flex flex-col justify-center items-center w-screen h-screen bg-blue-800 focus-in z-20">
+				class="s-three absolute inset-0 flex flex-col justify-center items-center w-screen h-screen bg-blue-800 focus-in z-20">
 				<h1 class="text-9xl">3</h1>
 			</section>
 		</main>
-		<nav class="navbar absolute inset-x-0 bottom-0 flex justify-center items-center h-1/5 bg-orange-600 z-40 space-x-24">
+		<nav
+			class="navbar absolute inset-x-0 bottom-0 flex justify-center items-center h-1/5 bg-orange-600 z-40 space-x-12 text-sm">
 			<button class="n-one">Nowości</button>
 			<button class="n-two">O nas</button>
 			<button class="n-three">Kontakt</button>
