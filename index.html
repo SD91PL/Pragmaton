@@ -9,8 +9,8 @@
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body class="bg-slate-800 text-white overflow-hidden">
-		<header class="relative inset-0 z-50">
-		<!-- <header class="hidden"> -->
+		<!-- <header class="relative inset-0 z-50"> -->
+		<header class="hidden">
 			<div class="hidden"></div>
 			<div class="under-home absolute inset-0 bg-black w-screen h-screen z-40"></div>
 			<div
@@ -64,23 +64,64 @@
 		</header>
 		<main>
 			<section
+				id="news"
 				class="s-one absolute inset-0 flex flex-col justify-center items-center w-screen h-4/5 bg-red-800 focus-in z-20">
 				<h1 class="text-9xl">1</h1>
 			</section>
 			<section
-				class="s-two absolute inset-0 flex flex-col justify-center items-center w-screen h-4/5 bg-green-800 focus-in z-20">
-				<h1 class="text-9xl">2</h1>
+				id="about"
+				class="s-two absolute inset-0 flex flex-col justify-center items-center w-screen h-4/5 bg-black focus-in z-30">
+				<h1 class="pt-12 font-urzeit text-5xl">o nas</h1>
+				<p
+					class="container p-8 landscape:p-4 landscape:lg:p-12 max-w-prose text-sm portrait:min-[375px]:text-base sm:text-base lg:text-xl">
+					PRAGMATON - Czyli pragmatyczny ton wypowiedzi. Inicjatywa dwóch mc i producenta, którzy stawiają na realizm i
+					przede wszystkim zdrowy rozsądek. To sposób podejścia do różnych spraw i życia codziennego, który przekłada
+					się na tworzenie muzyki. Za warstwę liryczną odpowiada Menski, który niedawno rozpoczął swoją przygodę z
+					muzyką oraz Żaba (Kave Żabek). Klasyczne hip-hopowe brzmienie od TheGarageStreet w połączeniu z racjonalną
+					warstwą liryczną daje hip-hopowy PRAGMATON.
+				</p>
+				<div class="hidden md:flex pt-8 space-x-10 text-5xl">
+					<a
+						href="https://www.facebook.com/pragmaton2022"
+						target="_blank"
+						rel="noopener"
+						class="hover:scale-95 transition-transform">
+						<i class="icon-facebook"></i>
+					</a>
+					<a
+						href="https://www.instagram.com/pragmaton_official/"
+						target="_blank"
+						rel="noopener"
+						class="hover:scale-95 transition-transform">
+						<i class="icon-instagram"></i>
+					</a>
+					<a
+						href="https://www.youtube.com/@PRAGMATON"
+						target="_blank"
+						rel="noopener"
+						class="hover:scale-95 transition-transform">
+						<i class="icon-youtube"></i>
+					</a>
+					<a
+						href="https://open.spotify.com/artist/4kGexkNB8PTSxQe0vXiVUt"
+						target="_blank"
+						rel="noopener"
+						class="hover:scale-95 transition-transform">
+						<i class="icon-spotify"></i>
+					</a>
+				</div>
 			</section>
 			<section
-				class="s-three absolute inset-0 flex flex-col justify-center items-center w-screen h-4/5 bg-blue-800 focus-in z-30">
+				id="contact"
+				class="s-three absolute inset-0 flex flex-col justify-center items-center w-screen h-4/5 bg-blue-800 focus-in z-20">
 				<h1 class="text-9xl">3</h1>
 			</section>
 		</main>
 		<nav
 			class="navbar absolute container inset-x-0 bottom-0 flex justify-evenly items-center h-1/5 bg-black z-40 text-xl sm:text-3xl font-urzeit">
-			<button class="hover:scale-125 lg:hover:scale-110 transition-transform n-one">Nowości</button>
-			<button class="hover:scale-125 lg:hover:scale-110 transition-transform n-two">O nas</button>
-			<button class="hover:scale-125 lg:hover:scale-110 transition-transform n-three">Kontakt</button>
+			<button class="hover:scale-125 lg:hover:scale-110 transition-transform n-one">nowości</button>
+			<button class="hover:scale-125 lg:hover:scale-110 transition-transform n-two">o nas</button>
+			<button class="hover:scale-125 lg:hover:scale-110 transition-transform n-three">kontakt</button>
 		</nav>
 		<script src="./js/main.js"></script>
 	</body>
