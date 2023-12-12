@@ -11,6 +11,17 @@
     font-family: 'urzeit';
 }
 
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('../fonts/BebasNeue.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+.font-bebas {
+    font-family: 'BebasNeue';
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
