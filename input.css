@@ -8,7 +8,7 @@
 	/* font-display: block; */
 }
 .font-urzeit {
-    font-family: 'urzeit';
+	font-family: 'urzeit';
 }
 
 @font-face {
@@ -18,10 +18,18 @@
 	font-style: normal;
 }
 .font-bebas {
-    font-family: 'BebasNeue';
+	font-family: 'BebasNeue';
 }
-
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-hero {
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-hero--02 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/pragma02.jpg);
+}
