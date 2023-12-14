@@ -27,18 +27,15 @@
 	background-size: cover;
 }
 
-.bg-hero--02 {
+.bg-hero--start {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/pragma02.jpg);
 }
-/* .bg-hero--02d {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma02.jpg);
-} */
-.bg-hero--06 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma06.png);
-}
-.bg-hero--07 {
+.bg-hero--news {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/pragma07.jpg);
 }
-.bg-hero--09 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/pragma09.png);
+.bg-hero--aboutus {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma09s.png);
+}
+.bg-hero--contact {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma06s.png);
 }
