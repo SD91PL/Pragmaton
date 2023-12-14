@@ -30,6 +30,14 @@
 	background-size: cover;
 }
 
+.bg-hero--01 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../img/pragma01.jpg);
+}
+
 .bg-hero--02 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/pragma02.jpg);
+}
+
+.bg-hero--03 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(../img/pragma03.jpg);
 }
