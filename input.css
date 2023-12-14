@@ -1,29 +1,27 @@
 @import url('./animations.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
 	font-family: 'urzeit';
 	src: url('../fonts/Urzeit.ttf');
 	font-weight: normal;
 	font-style: normal;
-	/* font-display: block; */
 }
-.font-urzeit {
-	font-family: 'urzeit';
-}
-
 @font-face {
 	font-family: 'BebasNeue';
 	src: url('../fonts/BebasNeue.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
+.font-urzeit {
+	font-family: 'urzeit', sans-serif;
+}
 .font-bebas {
-	font-family: 'BebasNeue';
+	font-family: 'BebasNeue', sans-serif;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 .bg-hero {
 	background-position: center;
@@ -33,11 +31,18 @@
 .bg-hero--01 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../img/pragma01.jpg);
 }
-
 .bg-hero--02 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/pragma02.jpg);
 }
-
+.bg-hero--02d {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma02.jpg);
+}
 .bg-hero--03 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(../img/pragma03.jpg);
+}
+.bg-hero--06 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma06.png);
+}
+.bg-hero--07 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/pragma07.jpg);
 }
