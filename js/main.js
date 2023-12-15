@@ -30,13 +30,19 @@ document.addEventListener('DOMContentLoaded', function () {
 		sThree.classList.add('blur-out')
 		setTimeout(() => {
 			sTwo.classList.remove('z-30')
+			sTwo.classList.remove('opacity-100')
 			sThree.classList.remove('z-30')
+			sThree.classList.remove('opacity-100')
 			sTwo.classList.add('z-20')
+			sTwo.classList.add('opacity-0')
 			sThree.classList.add('z-20')
+			sThree.classList.add('opacity-0')
 		}, 900)
 		sOne.classList.add('focus-in')
 		sOne.classList.remove('z-20')
+		sOne.classList.remove('opacity-0')
 		sOne.classList.add('z-30')
+		sOne.classList.add('opacity-100')
 	}
 	const showTwo = () => {
 		sTwo.classList.remove('z-30')
@@ -46,13 +52,19 @@ document.addEventListener('DOMContentLoaded', function () {
 		sThree.classList.add('blur-out')
 		setTimeout(() => {
 			sOne.classList.remove('z-30')
+			sOne.classList.remove('opacity-100')
 			sThree.classList.remove('z-30')
+			sThree.classList.remove('opacity-100')
 			sOne.classList.add('z-20')
+			sOne.classList.add('opacity-0')
 			sThree.classList.add('z-20')
+			sThree.classList.add('opacity-0')
 		}, 900)
 		sTwo.classList.add('focus-in')
 		sTwo.classList.remove('z-20')
+		sTwo.classList.remove('opacity-0')
 		sTwo.classList.add('z-30')
+		sTwo.classList.add('opacity-100')
 	}
 	const showThree = () => {
 		sThree.classList.remove('z-30')
@@ -62,12 +74,19 @@ document.addEventListener('DOMContentLoaded', function () {
 		sTwo.classList.add('blur-out')
 		setTimeout(() => {
 			sOne.classList.remove('z-30')
+			sOne.classList.remove('opacity-100')
 			sTwo.classList.remove('z-30')
+			sTwo.classList.remove('opacity-100')
 			sOne.classList.add('z-20')
+			sOne.classList.add('opacity-0')
 			sTwo.classList.add('z-20')
+			sTwo.classList.add('opacity-0')
 		}, 900)
 		sThree.classList.add('focus-in')
-		sThree.classList.add('z-20')
+		sThree.classList.remove('z-20')
+		sThree.classList.remove('opacity-0')
+		sThree.classList.add('z-30')
+		sThree.classList.add('opacity-100')
 	}
 
 	nOne.addEventListener('click', showOne)

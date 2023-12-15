@@ -16,8 +16,12 @@
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body class="bg-black text-white overflow-hidden">
+		<!-- tailwind classes for js -->
+		<div class="hidden">
+
+		</div>
+		<!-- website -->
 		<header class="relative inset-0 z-50">
-			<div class="hidden"></div>
 			<div class="under-home absolute inset-0 bg-black w-screen h-screen z-40"></div>
 			<div
 				class="home absolute inset-0 flex flex-col flex-wrap justify-center items-center w-screen h-screen bg-black bg-hero bg-hero--start focus-in z-50">
@@ -71,7 +75,7 @@
 		<main>
 			<section
 				id="news"
-				class="s-one absolute inset-0 flex flex-col justify-center landscape:max-[915px]:justify-end items-center w-screen h-screen bg-black bg-hero bg-hero--news z-30">
+				class="s-one absolute inset-0 flex flex-col justify-center landscape:max-[915px]:justify-end items-center w-screen h-screen bg-black bg-hero bg-hero--news z-30 opacity-100 transition-opacity">
 				<div
 					class="container flex flex-col justify-center items-center p-8 pb-12 landscape:p-0 landscape:lg:p-12 w-full">
 					<h1 class="landscape:hidden landscape:lg:block pt-12 pb-6 font-urzeit text-4xl md:text-5xl">pragmaton</h1>
@@ -193,7 +197,7 @@
 			</section>
 			<section
 				id="aboutus"
-				class="s-two absolute inset-0 flex flex-col justify-center items-center w-screen h-screen bg-black bg-hero bg-hero--aboutus z-20">
+				class="s-two absolute inset-0 flex flex-col justify-center items-center w-screen h-screen bg-black bg-hero bg-hero--aboutus z-20 opacity-0 transition-opacity">
 				<h1 class="landscape:hidden landscape:lg:block pt-12 font-bebas font-bold text-4xl md:text-5xl">o nas</h1>
 				<p
 					class="container p-8 landscape:p-4 landscape:lg:p-12 max-w-prose text-sm portrait:min-[375px]:text-base md:text-base lg:text-xl">
@@ -242,7 +246,7 @@
 			</section>
 			<section
 				id="contact"
-				class="s-three absolute inset-0 flex flex-col justify-center items-center w-screen h-screen bg-black bg-hero bg-hero--contact z-20">
+				class="s-three absolute inset-0 flex flex-col justify-center items-center w-screen h-screen bg-black bg-hero bg-hero--contact z-20 opacity-0 transition-opacity">
 				<h1 class="landscape:hidden landscape:lg:block pt-12 font-bebas font-bold text-4xl md:text-5xl">kontakt</h1>
 				<div
 					class="container flex flex-col justify-center items-start p-8 landscape:p-4 landscape:lg:p-12 max-w-[36ch] text-sm portrait:min-[375px]:text-base md:text-base lg:text-xl underline-offset-8">
