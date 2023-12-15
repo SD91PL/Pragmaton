@@ -23,40 +23,51 @@ document.addEventListener('DOMContentLoaded', function () {
 	const nThree = document.querySelector('.n-three')
 
 	const showOne = () => {
+		sOne.classList.remove('z-30')
 		sOne.classList.remove('focus-in')
 		sOne.classList.remove('blur-out')
 		sTwo.classList.add('blur-out')
 		sThree.classList.add('blur-out')
 		setTimeout(() => {
-			sTwo.classList.add('hidden')
-			sThree.classList.add('hidden')
+			sTwo.classList.remove('z-30')
+			sThree.classList.remove('z-30')
+			sTwo.classList.add('z-20')
+			sThree.classList.add('z-20')
 		}, 900)
 		sOne.classList.add('focus-in')
-		sOne.classList.remove('hidden')
+		sOne.classList.remove('z-20')
+		sOne.classList.add('z-30')
 	}
 	const showTwo = () => {
+		sTwo.classList.remove('z-30')
 		sTwo.classList.remove('focus-in')
 		sTwo.classList.remove('blur-out')
 		sOne.classList.add('blur-out')
 		sThree.classList.add('blur-out')
 		setTimeout(() => {
-			sOne.classList.add('hidden')
-			sThree.classList.add('hidden')
+			sOne.classList.remove('z-30')
+			sThree.classList.remove('z-30')
+			sOne.classList.add('z-20')
+			sThree.classList.add('z-20')
 		}, 900)
 		sTwo.classList.add('focus-in')
-		sTwo.classList.remove('hidden')
+		sTwo.classList.remove('z-20')
+		sTwo.classList.add('z-30')
 	}
 	const showThree = () => {
+		sThree.classList.remove('z-30')
 		sThree.classList.remove('focus-in')
 		sThree.classList.remove('blur-out')
 		sOne.classList.add('blur-out')
 		sTwo.classList.add('blur-out')
 		setTimeout(() => {
-			sOne.classList.add('hidden')
-			sTwo.classList.add('hidden')
+			sOne.classList.remove('z-30')
+			sTwo.classList.remove('z-30')
+			sOne.classList.add('z-20')
+			sTwo.classList.add('z-20')
 		}, 900)
 		sThree.classList.add('focus-in')
-		sThree.classList.remove('hidden')
+		sThree.classList.add('z-20')
 	}
 
 	nOne.addEventListener('click', showOne)
