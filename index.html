@@ -13,9 +13,10 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="./icomoon.css" />
 		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 	</head>
 	<body class="bg-black text-white overflow-hidden">
-		<header class="relative inset-0 z-50">
+		<header class="hidden relative inset-0 z-50">
 			<div class="hidden"></div>
 			<div class="under-home absolute inset-0 bg-black w-screen h-screen z-40"></div>
 			<div
@@ -71,9 +72,9 @@
 			<section
 				id="news"
 				class="s-one absolute inset-0 flex flex-col justify-center landscape:max-[915px]:justify-end items-center w-screen h-screen bg-black bg-hero bg-hero--news focus-in z-30">
-				<h1 class="landscape:hidden landscape:lg:block pt-12 font-urzeit text-4xl md:text-5xl">pragmaton</h1>
 				<div
 					class="container flex flex-col justify-center items-center p-8 pb-12 landscape:p-0 landscape:lg:p-12 w-full">
+					<h1 class="landscape:hidden landscape:lg:block pt-12 pb-6 font-urzeit text-4xl md:text-5xl">pragmaton</h1>
 					<div class="flex flex-col justify-center">
 						<p
 							class="landscape:hidden landscape:lg:block portrait:mb-3 mb-1 lg:mb-2 2xl:mb-4 min-[2160px]:mb-8 p-2 border-b-2 border-white text-sm portrait:min-[375px]:text-base md:text-base lg:text-xl">
@@ -81,19 +82,112 @@
 						</p>
 						<!-- for update - copy only src to iframe -->
 						<iframe
-							class="landscape:mb-10 w-[220px] h-[124px] min-[320px]:w-[300px] min-[320px]:h-[169px] min-[375px]:w-[350px] min-[375px]:h-[197px] md:w-[560px] md:h-[315px] min-[2160px]:w-[1024px] min-[2160px]:h-[576px] overflow-hidden"
+							class="landscape:mb-10 landscape:lg:mb-5 w-[220px] h-[124px] min-[320px]:w-[300px] min-[320px]:h-[169px] min-[375px]:w-[350px] min-[375px]:h-[197px] md:w-[560px] md:h-[315px] min-[2160px]:w-[1024px] min-[2160px]:h-[576px] overflow-hidden"
 							src="https://www.youtube.com/embed/DkYZXOesrMY?si=mn5mDHLmoZP26djI"
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 							allowfullscreen></iframe>
-						<!-- <div class="hidden lg:flex flex-col justify-center my-5">
-							<p
-								class="portrait:mb-3 mb-1 lg:mb-2 2xl:mb-4 min-[2160px]:mb-8 p-2 border-b-2 border-white text-xs portrait:min-[375px]:text-sm md:text-sm lg:text-base">
-								<i class="icon-square text-xs min-[375px]:text-sm lg:text-base me-1"></i> Pozostałe
-							</p>
-						</div> -->
 					</div>
+					<div class="hidden xl:flex flex-col justify-center mt-2 border-b-2 border-white bg-white/[.1]">
+						<div class="flex w-[560px] topics-carousel">
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/CgSyXUaeh00?si=tA3tOFWmZa0ulwoP"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/alarm.jpg" alt="singiel Alarm" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/Ub9M_zNFepE?si=LQpUn3sVSsz1Kxa0"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/analiza.jpg" alt="singiel Analiza Taktyczna" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/BWkr3vVm2H0?si=FFsntroCcHwFvlHE"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/dark-side.jpg" alt="singiel Dark Side" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/poqNiFlH5qk?si=eGJQw-fq1lJU2uXk"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/droga-bez-konca.jpg" alt="singiel Droga Bez Końca" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/HWBbDTd8I1M?si=vKcuv3cW9VeYXQ8f"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/flashback.jpg" alt="singiel Flashback" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/5gp5HvaAd-A?si=gsx-xZod3XH8zmgc"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/moglbym.jpg" alt="singiel Mógłbym" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/pGeaDbPjYig?si=fOtkACpmQ4GJXxgX"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/momenty.jpg" alt="singiel Momenty" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/j5SU-ItgH9Q?si=9C8hAl0bMlMx-0Jv"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/offline.jpg" alt="singiel Offline" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/a2fIXoJqJpU?si=zF0TobBYqTRNLKwa"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/patent.jpg" alt="singiel Patent" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/1LAXttdzOD8?si=JX6ze7LshVFuld56"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/po-staremu.jpg" alt="singiel Po Staremu" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/q50lb5vR5XU?si=3LHZ5EkOtcIyccqG"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/pragmatyk.jpg" alt="singiel Pragmatyk" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/fGHFfqDHHvE?si=Z0PfWncozYhutqB3"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/raport.jpg" alt="singiel Raport" />
+							</a>
+							<a
+								class="mx-4 hover:scale-110 transition-transform"
+								href="https://youtu.be/bD-tyjsw5jg?si=IAwMgXbocPo8ieK5"
+								target="_blank"
+								rel="noopener">
+								<img src="./img/topics/rebelia.jpg" alt="singiel Rebelia" />
+							</a>
+						</div>
+					</div>
+					<p
+						class="landscape:hidden landscape:lg:block portrait:mb-3 mb-1 lg:mb-2 2xl:mb-4 min-[2160px]:mb-8 p-0 w-[560px] text-sm portrait:min-[375px]:text-base md:text-base lg:text-xl text-right">
+						<i class="icon-square text-xs min-[375px]:text-sm lg:text-base me-1"></i> Pozostałe
+					</p>
 				</div>
 				<div class="w-full h-1/5"></div>
 			</section>
@@ -201,6 +295,10 @@
 				kontakt
 			</button>
 		</nav>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="./js/slicksettings.js"></script>
 		<script src="./js/main.js"></script>
 	</body>
 </html>
