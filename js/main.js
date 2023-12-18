@@ -1,4 +1,28 @@
 document.addEventListener('DOMContentLoaded', function () {
+	// Slick.js Carousel Settings
+	$('.topics-carousel').slick({
+		arrows: false,
+		autoplay: true,
+		autoplaySpeed: 3200,
+		mobileFirst: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 3,
+				},
+			},
+			{
+				breakpoint: 2500,
+				settings: {
+					slidesToShow: 5,
+				},
+			},
+		],
+	})
+
 	// Home
 	const home = document.querySelector('.home')
 	const unHome = document.querySelector('.under-home')
@@ -92,28 +116,4 @@ document.addEventListener('DOMContentLoaded', function () {
 	nOne.addEventListener('click', showOne)
 	nTwo.addEventListener('click', showTwo)
 	nThree.addEventListener('click', showThree)
-
-	// Slick.js Carousel Settings
-	$('.topics-carousel').slick({
-		arrows: false,
-		autoplay: true,
-		autoplaySpeed: 3200,
-		mobileFirst: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		responsive: [
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 3,
-				},
-			},
-			{
-				breakpoint: 2500,
-				settings: {
-					slidesToShow: 5,
-				},
-			},
-		],
-	})
 })
