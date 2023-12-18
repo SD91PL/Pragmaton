@@ -13,6 +13,12 @@ $(document).ready(function () {
 					slidesToShow: 3,
 				},
 			},
+			{
+				breakpoint: 2500,
+				settings: {
+					slidesToShow: 5,
+				},
+			},
 		],
 	})
 })
