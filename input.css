@@ -26,7 +26,6 @@
 	background-position: center;
 	background-size: cover;
 }
-
 .bg-hero--start {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/sm/pragma02-sm.webp);
 }
@@ -39,7 +38,6 @@
 .bg-hero--contact {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/sm/pragma06-sm.webp);
 }
-
 @media (min-width: 640px) {
 	.bg-hero--start {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/md/pragma02-md.webp);
@@ -54,7 +52,6 @@
 		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/md/pragma06-md.webp);
 	}
 }
-
 @media (min-width: 768px) {
 	.bg-hero--start {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/lg/pragma02-lg.webp);
@@ -69,7 +66,6 @@
 		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/lg/pragma06-lg.webp);
 	}
 }
-
 @media (min-width: 940px) {
 	.bg-hero--start {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/xl/pragma02-xl.webp);
@@ -84,7 +80,6 @@
 		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/xl/pragma06-xl.webp);
 	}
 }
-
 @media (min-width: 1280px) {
 	.bg-hero--start {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/2xl/pragma02-2xl.webp);
