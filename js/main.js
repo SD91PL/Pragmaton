@@ -1,4 +1,23 @@
 document.addEventListener('DOMContentLoaded', function () {
+	// lazy-loading offscreen and hidden images
+	const images = document.querySelectorAll('img[data-src]')
+	const options = {
+		rootMargin: '0px',
+		threshold: 0.1,
+	}
+	const observer = new IntersectionObserver(function (entries, observer) {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				const img = entry.target
+				img.src = img.dataset.src
+				observer.unobserve(img)
+			}
+		})
+	}, options)
+	images.forEach(image => {
+		observer.observe(image)
+	})
+
 	// Home
 	const home = document.querySelector('.home')
 	const unHome = document.querySelector('.under-home')
