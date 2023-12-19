@@ -38,3 +38,17 @@
 .bg-hero--contact {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/bg/pragma06-2xl.webp);
 }
+@media (min-width: 1536px) {
+	.bg-hero--start {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/pragma02.webp);
+	}
+	.bg-hero--news {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/pragma07.webp);
+	}
+	.bg-hero--aboutus {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma09.webp);
+	}
+	.bg-hero--contact {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma06.webp);
+	}
+}
