@@ -27,84 +27,14 @@
 	background-size: cover;
 }
 .bg-hero--start {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/sm/pragma02-sm.webp);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/bg/pragma02-2xl.webp);
 }
 .bg-hero--news {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/sm/pragma07-sm.webp);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/bg/pragma07-2xl.webp);
 }
 .bg-hero--aboutus {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/sm/pragma09-sm.webp);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/bg/pragma09-2xl.webp);
 }
 .bg-hero--contact {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/sm/pragma06-sm.webp);
-}
-@media (min-width: 640px) {
-	.bg-hero--start {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/md/pragma02-md.webp);
-	}
-	.bg-hero--news {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/md/pragma07-md.webp);
-	}
-	.bg-hero--aboutus {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/md/pragma09-md.webp);
-	}
-	.bg-hero--contact {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/md/pragma06-md.webp);
-	}
-}
-@media (min-width: 768px) {
-	.bg-hero--start {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/lg/pragma02-lg.webp);
-	}
-	.bg-hero--news {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/lg/pragma07-lg.webp);
-	}
-	.bg-hero--aboutus {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/lg/pragma09-lg.webp);
-	}
-	.bg-hero--contact {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/lg/pragma06-lg.webp);
-	}
-}
-@media (min-width: 940px) {
-	.bg-hero--start {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/xl/pragma02-xl.webp);
-	}
-	.bg-hero--news {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/xl/pragma07-xl.webp);
-	}
-	.bg-hero--aboutus {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/xl/pragma09-xl.webp);
-	}
-	.bg-hero--contact {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/xl/pragma06-xl.webp);
-	}
-}
-@media (min-width: 1280px) {
-	.bg-hero--start {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/2xl/pragma02-2xl.webp);
-	}
-	.bg-hero--news {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/2xl/pragma07-2xl.webp);
-	}
-	.bg-hero--aboutus {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/2xl/pragma09-2xl.webp);
-	}
-	.bg-hero--contact {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/2xl/pragma06-2xl.webp);
-	}
-}
-@media (min-width: 1536px) {
-	.bg-hero--start {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/pragma02.webp);
-	}
-	.bg-hero--news {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/pragma07.webp);
-	}
-	.bg-hero--aboutus {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma09.webp);
-	}
-	.bg-hero--contact {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma06.webp);
-	}
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/bg/pragma06-2xl.webp);
 }
