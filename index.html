@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body class="bg-black text-white overflow-hidden">
-		<header class="relative inset-0 z-50">
+		<header class="hidden relative inset-0 z-50">
 			<div class="under-home absolute inset-0 bg-black w-screen h-screen z-40"></div>
 			<div
 				class="home absolute inset-0 flex flex-col flex-wrap justify-center items-center w-screen h-screen bg-black bg-hero bg-hero--start focus-in z-50">
@@ -76,9 +76,10 @@
 			<section
 				id="news"
 				class="s-one absolute inset-0 flex flex-col justify-center landscape:max-[915px]:justify-end items-center w-screen h-screen bg-black bg-hero bg-hero--news z-30 opacity-100 transition-opacity">
-				<div class="container flex flex-col justify-center items-center p-8 landscape:p-8 w-full xl:w-1/2 xl:bg-black/[.2]">
+				<div
+					class="container flex flex-col justify-center items-center p-8 landscape:p-8 landscape:pb-0 landscape:xl:pb-8 w-full xl:w-1/2 xl:bg-black/[.2] rounded">
 					<h1
-						class="landscape:hidden landscape:lg:block pt-4 4xl:pt-16 pb-6 3xl:pb-10 4xl:pb-12 font-urzeit text-5xl xl:text-6xl 4xl:text-8xl">
+						class="landscape:hidden landscape:lg:block pt-4 4xl:pt-16 pb-6 3xl:pb-10 4xl:pb-12 font-urzeit text-5xl xl:text-6xl 4xl:text-8xl drop-shadow-lg">
 						pragmaton
 					</h1>
 					<div class="flex flex-col justify-center">
@@ -88,14 +89,14 @@
 						</p>
 						<!-- for update - copy only src to iframe -->
 						<iframe
-							class="landscape:mb-10 landscape:lg:mb-5 w-[220px] h-[124px] min-[320px]:w-[300px] min-[320px]:h-[169px] min-[375px]:w-[350px] min-[375px]:h-[197px] md:w-[560px] md:h-[315px] 3xl:w-[1024px] 3xl:h-[576px] overflow-hidden"
+							class="landscape:mb-10 landscape:lg:mb-5 w-[220px] h-[124px] min-[320px]:w-[300px] min-[320px]:h-[169px] min-[375px]:w-[350px] min-[375px]:h-[197px] md:w-[560px] md:h-[315px] 3xl:w-[1024px] 3xl:h-[576px] rounded overflow-hidden"
 							src="https://www.youtube.com/embed/DkYZXOesrMY?si=mn5mDHLmoZP26djI"
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 							allowfullscreen></iframe>
 					</div>
-					<div class="hidden xl:flex flex-col justify-center mt-1 bg-white/[.1]">
+					<div class="hidden xl:flex flex-col justify-center mt-1 bg-white/[.1] rounded overflow-hidden">
 						<div class="topics-carousel flex w-[560px] h-[155px] 3xl:w-[1024px] 3xl:h-[172px]">
 							<a
 								class="mx-4 hover:scale-110 transition-transform"
