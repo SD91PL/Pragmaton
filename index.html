@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body class="bg-black text-white overflow-hidden">
-		<header class="relative inset-0 z-50">
+		<header class="hidden relative inset-0 z-50">
 			<div class="under-home absolute inset-0 bg-black w-screen h-screen z-40"></div>
 			<div
 				class="home absolute inset-0 flex flex-col flex-wrap justify-center items-center w-screen h-screen bg-black bg-hero bg-hero--start focus-in z-50">
@@ -77,14 +77,14 @@
 				id="news"
 				class="s-one absolute inset-0 flex flex-col justify-center landscape:max-[915px]:justify-end items-center w-screen h-screen bg-black bg-hero bg-hero--news z-30 opacity-100 transition-opacity">
 				<div
-					class="container flex flex-col justify-center items-center mt-2 p-8 landscape:p-8 landscape:pb-0 landscape:lg:pb-3 landscape:xl:pb-8 w-full xl:w-1/2 bg-black/[.2] bgi-news rounded">
+					class="container flex flex-col justify-center items-center mt-2 p-8 landscape:p-8 landscape:pb-0 landscape:lg:pb-3 landscape:xl:pb-8 w-full min-[320px]:w-[315px] min-[375px]:w-[370px] sm:w-7/12 md:w-5/6 lg:w-2/3 xl:w-1/2 bg-black/[.2] bgi-news rounded">
 					<h1
 						class="landscape:hidden landscape:lg:block pt-4 4xl:pt-16 pb-6 3xl:pb-10 4xl:pb-12 font-urzeit text-5xl xl:text-6xl 4xl:text-8xl drop-shadow-lg">
 						pragmaton
 					</h1>
 					<div class="flex flex-col justify-center">
 						<p
-							class="landscape:hidden landscape:lg:block portrait:mb-3 mb-1 lg:mb-2 text-sm portrait:min-[375px]:text-base md:text-base lg:text-xl">
+							class="landscape:hidden landscape:lg:block portrait:mb-3 mb-1 mx-1 lg:mb-2 text-sm portrait:min-[375px]:text-base md:text-base lg:text-xl">
 							<i class="icon-square text-xs min-[375px]:text-sm lg:text-base me-1"></i> Najnowszy singiel
 						</p>
 						<!-- for update - copy only src to iframe -->
@@ -202,7 +202,7 @@
 							aria-label="Pozostałe single"
 							target="_blank"
 							rel="noopener">
-							<p class="mt-1 underline decoration-red-700 underline-offset-8">
+							<p class="mt-1 mx-1 underline decoration-red-700 underline-offset-8">
 								<i class="icon-square text-xs min-[375px]:text-sm lg:text-base"></i> Sprawdź pozostałe
 							</p>
 						</a>
