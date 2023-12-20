@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 :root {
-	--gradient-start: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+	/* --gradient-start: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
 		radial-gradient(at 91% 84%, rgba(79, 81, 82, 0.3) 0px, transparent 50%),
 		radial-gradient(at 94% 57%, rgba(253, 168, 78, 0.5) 0px, transparent 50%),
 		radial-gradient(at 40% 0%, rgba(211, 107, 63, 0.6) 0px, transparent 50%),
@@ -23,7 +23,27 @@
 		radial-gradient(at 8% 31%, rgba(211, 107, 63, 0.8) 0px, transparent 50%),
 		radial-gradient(at 94% 57%, rgba(19, 104, 202, 0.5) 0px, transparent 50%),
 		radial-gradient(at 91% 84%, rgba(61, 111, 136, 0.6) 0px, transparent 50%),
-		radial-gradient(at 62% 91%, rgba(44, 116, 175, 0.5) 0px, transparent 50%);
+		radial-gradient(at 62% 91%, rgba(44, 116, 175, 0.5) 0px, transparent 50%); */
+	--gradient-start-bw: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+		radial-gradient(at 82% 18%, rgba(207, 207, 207, 0.6) 0px, transparent 50%),
+		radial-gradient(at 41% 97%, rgba(189, 189, 189, 0.7) 0px, transparent 50%),
+		radial-gradient(at 80% 44%, rgba(161, 161, 161, 0.8) 0px, transparent 50%),
+		radial-gradient(at 40% 0%, rgba(100, 100, 100, 0.8) 0px, transparent 50%),
+		radial-gradient(at 20% 69%, rgba(77, 77, 77, 0.8) 0px, transparent 50%),
+		radial-gradient(at 8% 31%, rgba(131, 131, 131, 0.8) 0px, transparent 50%),
+		radial-gradient(at 94% 57%, rgba(102, 102, 102, 0.5) 0px, transparent 50%),
+		radial-gradient(at 91% 84%, rgba(121, 121, 121, 0.6) 0px, transparent 50%),
+		radial-gradient(at 62% 91%, rgba(90, 90, 90, 0.5) 0px, transparent 50%);
+	--gradient-news-bw: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+		radial-gradient(at 82% 18%, rgba(136, 136, 136, 0.6) 0px, transparent 50%),
+		radial-gradient(at 41% 97%, rgba(161, 161, 161, 0.7) 0px, transparent 50%),
+		radial-gradient(at 80% 44%, rgba(83, 83, 83, 0.8) 0px, transparent 50%),
+		radial-gradient(at 40% 0%, rgba(124, 124, 124, 0.8) 0px, transparent 50%),
+		radial-gradient(at 20% 69%, rgba(121, 121, 121, 0.8) 0px, transparent 50%),
+		radial-gradient(at 8% 31%, rgba(131, 131, 131, 0.8) 0px, transparent 50%),
+		radial-gradient(at 94% 57%, rgba(94, 94, 94, 0.5) 0px, transparent 50%),
+		radial-gradient(at 91% 84%, rgba(78, 78, 78, 0.6) 0px, transparent 50%),
+		radial-gradient(at 62% 91%, rgba(124, 124, 124, 0.5) 0px, transparent 50%);
 }
 
 @font-face {
@@ -50,10 +70,10 @@
 	background-size: cover;
 }
 .bg-hero--start {
-	background-image: var(--gradient-start), url(../img/bg/pragma02-2xl.webp);
+	background-image: var(--gradient-start-bw), url(../img/bg/pragma02-2xl.webp);
 }
 .bg-hero--news {
-	background-image: var(--gradient-news), url(../img/bg/pragma07-2xl.webp);
+	background-image: var(--gradient-news-bw), url(../img/bg/pragma07-2xl.webp);
 }
 .bg-hero--aboutus {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/bg/pragma09-2xl.webp);
@@ -63,10 +83,10 @@
 }
 @media (min-width: 1536px) {
 	.bg-hero--start {
-		background-image: var(--gradient-start), url(../img/pragma02.webp);
+		background-image: var(--gradient-start-bw), url(../img/pragma02.webp);
 	}
 	.bg-hero--news {
-		background-image: var(--gradient-news), url(../img/pragma07.webp);
+		background-image: var(--gradient-news-bw), url(../img/pragma07.webp);
 	}
 	.bg-hero--aboutus {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/pragma09.webp);
@@ -77,5 +97,5 @@
 }
 
 .bgi-news {
-	background-image: var(--gradient-start);
+	background-image: var(--gradient-start-bw);
 }
