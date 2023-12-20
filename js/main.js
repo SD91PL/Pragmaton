@@ -5,11 +5,19 @@ document.addEventListener('DOMContentLoaded', function () {
 	const startBtn = document.querySelector('.start-btn')
 
 	const hideHome = () => {
+		sOne.classList.remove('z-30')
+		sOne.classList.remove('opacity-100')
+		// sOne.classList.add('opacity-0')
 		unHome.classList.add('hidden')
 		home.classList.add('blur-out')
 		setTimeout(() => {
 			home.classList.add('hidden')
 		}, 900)
+		sOne.classList.add('focus-in')
+		// sOne.classList.remove('z-20')
+		// sOne.classList.remove('opacity-0')
+		sOne.classList.add('z-30')
+		sOne.classList.add('opacity-100')
 	}
 
 	startBtn.addEventListener('click', hideHome)
