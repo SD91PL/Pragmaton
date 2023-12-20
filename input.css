@@ -96,6 +96,8 @@
 	}
 }
 
-.bgi-news {
-	background-image: var(--gradient-start-bw);
+@media (min-width: 1280px) {
+	.bgi-news {
+		background-image: var(--gradient-start-bw);
+	}
 }
