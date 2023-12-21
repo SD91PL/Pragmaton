@@ -37,13 +37,3 @@
 .text-pop-up-top {
 	animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-
-.logo-focus {
-	animation: focus-in 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.2s both;
-}
-.start-focus {
-	animation: focus-in 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.6s both;
-}
-.socials-focus {
-	animation: focus-in 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
-}
