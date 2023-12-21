@@ -12,6 +12,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="./icomoon.css" />
+		<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
@@ -88,13 +89,18 @@
 							<i class="icon-square text-xs min-[375px]:text-sm lg:text-base me-1"></i> Najnowszy singiel
 						</p>
 						<!-- for update - copy only src to iframe -->
-						<iframe
+						<!-- <iframe
 							class="iframe landscape:mb-10 landscape:lg:mb-5 w-[220px] h-[124px] min-[320px]:w-[300px] min-[320px]:h-[169px] min-[375px]:w-[350px] min-[375px]:h-[197px] md:w-[560px] md:h-[315px] 3xl:w-[1024px] 3xl:h-[576px] rounded overflow-hidden opacity-90 hover:opacity-100 transition duration-500"
-							src=""
+							src="https://www.youtube.com/embed/Czp8-Q1Ylco?si=bTAAXHd68N6mnRsq"
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							allowfullscreen></iframe>
+							allowfullscreen></iframe> -->
+						<div
+							class="landscape:mb-10 landscape:lg:mb-5 w-[220px] h-[124px] min-[320px]:w-[300px] min-[320px]:h-[169px] min-[375px]:w-[350px] min-[375px]:h-[197px] md:w-[560px] md:h-[315px] 3xl:w-[1024px] 3xl:h-[576px] rounded overflow-hidden opacity-90 hover:opacity-100 transition duration-500">
+							<lite-youtube class="lite-embed" videotitle="PRAGMATON - Teraz albo nigdy (Official Video)" videoplay="Odtwórz" videoid="DkYZXOesrMY">
+							</lite-youtube>
+						</div>
 					</div>
 					<div class="hidden xl:flex flex-col justify-center mt-1 bg-white/[.1] rounded overflow-hidden">
 						<div class="topics-carousel flex w-[560px] h-[155px] 3xl:w-[1024px] 3xl:h-[172px]">
@@ -332,6 +338,5 @@
 		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 		<script src="./js/slicksettings.js"></script>
 		<script src="./js/main.min.js"></script>
-		<script src="./js/content.js"></script>
 	</body>
 </html>
