@@ -12,6 +12,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="./icomoon.css" />
+		<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
@@ -87,14 +88,15 @@
 							class="landscape:hidden landscape:lg:block portrait:mb-3 mb-1 mx-1 lg:mb-2 text-sm portrait:min-[375px]:text-base md:text-base lg:text-xl">
 							<i class="icon-square text-xs min-[375px]:text-sm lg:text-base me-1"></i> Najnowszy singiel
 						</p>
-						<!-- for update - copy only src to iframe -->
-						<iframe
-							class="landscape:mb-10 landscape:lg:mb-5 w-[220px] h-[124px] min-[320px]:w-[300px] min-[320px]:h-[169px] min-[375px]:w-[350px] min-[375px]:h-[197px] md:w-[560px] md:h-[315px] 3xl:w-[1024px] 3xl:h-[576px] rounded overflow-hidden opacity-90 hover:opacity-100 transition duration-500"
-							src="https://www.youtube.com/embed/DkYZXOesrMY?si=mn5mDHLmoZP26djI"
-							title="YouTube video player"
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							allowfullscreen></iframe>
+						<!-- for update - videotitle videoid-->
+						<div
+							class="landscape:mb-10 landscape:lg:mb-5 w-[220px] h-[124px] min-[320px]:w-[300px] min-[320px]:h-[169px] min-[375px]:w-[350px] min-[375px]:h-[197px] md:w-[560px] md:h-[315px] 3xl:w-[1024px] 3xl:h-[576px] rounded overflow-hidden opacity-90 hover:opacity-100 transition duration-500">
+							<lite-youtube
+								videoplay="Odtwórz"
+								videotitle="PRAGMATON feat. Patrycja Turczyńska - Dark Side (Official Video)"
+								videoid="DkYZXOesrMY">
+							</lite-youtube>
+						</div>
 					</div>
 					<div class="hidden xl:flex flex-col justify-center mt-1 bg-white/[.1] rounded overflow-hidden">
 						<div class="topics-carousel flex w-[560px] h-[155px] 3xl:w-[1024px] 3xl:h-[172px]">
@@ -230,7 +232,7 @@
 					PRAGMATON.
 				</p>
 				<div
-					class="hidden portrait:min-[375px]:flex landscape:min-[940px]:flex 2xl:pt-2 3xl:pt-4 space-x-10 3xl:space-x-12 4xl:space-x-14 text-4xl xl:text-5xl">
+					class="hidden portrait:min-[360px]:flex landscape:min-[940px]:flex 2xl:pt-2 3xl:pt-4 space-x-10 3xl:space-x-12 4xl:space-x-14 text-4xl xl:text-5xl">
 					<a
 						href="https://www.facebook.com/pragmaton2022"
 						aria-label="facebook Pragmatonu"
@@ -281,9 +283,9 @@
 							<strong>Management</strong>
 							<br />
 							<span
-								class="underline decoration-transparent group-hover:decoration-red-700 transition-colors duration-500"
-								>668-951-318</span
-							>
+								class="underline decoration-transparent group-hover:decoration-red-700 transition-colors duration-500">
+								668-951-318
+							</span>
 						</p>
 					</a>
 					<a href="mailto:pragmaton2022@gmail.com">
@@ -292,9 +294,9 @@
 							<strong>E-mail</strong>
 							<br />
 							<span
-								class="underline decoration-transparent group-hover:decoration-red-700 transition-colors duration-500"
-								>pragmaton2022@gmail.com</span
-							>
+								class="underline decoration-transparent group-hover:decoration-red-700 transition-colors duration-500">
+								pragmaton2022@gmail.com
+							</span>
 						</p>
 					</a>
 					<a href="https://www.messenger.com/t/pragmaton2022" target="_blank" rel="noopener">
@@ -303,9 +305,9 @@
 							<strong>Messenger</strong>
 							<br />
 							<span
-								class="underline decoration-transparent group-hover:decoration-red-700 transition-colors duration-500"
-								>pragmaton2022</span
-							>
+								class="underline decoration-transparent group-hover:decoration-red-700 transition-colors duration-500">
+								pragmaton2022
+							</span>
 						</p>
 					</a>
 				</div>
