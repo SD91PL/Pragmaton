@@ -98,3 +98,4 @@ document.addEventListener('DOMContentLoaded', function () {
 	nTwo.addEventListener('click', showTwo)
 	nThree.addEventListener('click', showThree)
 })
+
