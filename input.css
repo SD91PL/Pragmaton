@@ -50,16 +50,30 @@
 	background-size: cover;
 }
 .bg-hero--start {
-	background-image: var(--gradient-start-bw), url(../img/2xl/pragma02-2xl.webp);
+	background-image: var(--gradient-start-bw), url(../img/lg/pragma02-lg.webp);
 }
 .bg-hero--news {
-	background-image: var(--gradient-news-bw), url(../img/2xl/pragma07-2xl.webp);
+	background-image: var(--gradient-news-bw), url(../img/lg/pragma07-lg.webp);
 }
 .bg-hero--aboutus {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/2xl/pragma09-2xl.webp);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/lg/pragma09-lg.webp);
 }
 .bg-hero--contact {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/2xl/pragma06-2xl.webp);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/lg/pragma06-lg.webp);
+}
+@media (min-width: 940px) {
+	.bg-hero--start {
+		background-image: var(--gradient-start-bw), url(../img/2xl/pragma02-2xl.webp);
+	}
+	.bg-hero--news {
+		background-image: var(--gradient-news-bw), url(../img/2xl/pragma07-2xl.webp);
+	}
+	.bg-hero--aboutus {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/2xl/pragma09-2xl.webp);
+	}
+	.bg-hero--contact {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/2xl/pragma06-2xl.webp);
+	}
 }
 @media (min-width: 1536px) {
 	.bg-hero--start {
