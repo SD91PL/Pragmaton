@@ -31,12 +31,14 @@
 	src: url('../fonts/Urzeit.ttf');
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 @font-face {
 	font-family: 'BebasNeue';
 	src: url('../fonts/BebasNeue.ttf');
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 .font-urzeit {
 	font-family: 'urzeit', sans-serif;
