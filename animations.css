@@ -31,6 +31,9 @@
 .focus-in {
 	animation: focus-in 0.9s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
+.focus-in-delay {
+	animation: focus-in 0.9s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s both;
+}
 .blur-out {
 	animation: blur-out 0.9s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
