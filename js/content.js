@@ -10,6 +10,5 @@ const generateVideoID = () => {
 
 window.addEventListener('load', generateVideoID)
 
-// drop to main branch
 // minify
 // drop to dist
