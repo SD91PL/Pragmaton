@@ -1,6 +1,6 @@
 const liteYT = document.querySelector('lite-youtube')
-const titles = ['Droga bez końca', 'Teraz albo nigdy', 'Nie daj sobie wmówić', 'Wniosek']
-const videos = ['poqNiFlH5qk', 'Czp8-Q1Ylco', 'lwir6tJ6TjM', 'QAUWpVuOZ4s']
+const titles = ['Teraz albo nigdy', 'Wniosek']
+const videos = ['Czp8-Q1Ylco', 'QAUWpVuOZ4s']
 
 const generateVideoID = () => {
 	const randomIndex = Math.floor(Math.random() * (titles.length - 0.0001))
@@ -9,5 +9,3 @@ const generateVideoID = () => {
 }
 
 window.addEventListener('load', generateVideoID)
-
-// drop to dist
