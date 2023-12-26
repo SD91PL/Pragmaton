@@ -1,5 +1,5 @@
 # Pragmaton
-Website for PRAGMATON
+Website for PRAGMATON v.2.3
 
 Link: https://sd91pl.github.io/Pragmaton/
 
