@@ -10,5 +10,4 @@ const generateVideoID = () => {
 
 window.addEventListener('load', generateVideoID)
 
-// minify
 // drop to dist
